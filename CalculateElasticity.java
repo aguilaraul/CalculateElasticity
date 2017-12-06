@@ -2,9 +2,7 @@
  * @author raul aguilar
  */
 package calculateelasticity;
-
 import java.util.Scanner;
-
 
 public class CalculateElasticity {
     
@@ -31,5 +29,4 @@ public class CalculateElasticity {
         elasticity = elasticity(oq, nq, op, np);
         System.out.printf("%n%s %.2f%n", "Elasticity:", elasticity);
     }
-    
 }
