@@ -8,7 +8,7 @@ public class CalculateElasticity {
     
     public static double elasticity(double oq, double nq, double op, double np)
     {
-        return ( ( (oq-nq)/((oq+nq)/2) ) * 100)/( ((np-op)/((np+op)/2)) * 100);
+        return ( ( (nq-oq)/((nq+oq)/2) ) * 100)/( ((np-op)/((np+op)/2)) * 100);
     }
     
     public static void main(String[] args) {
